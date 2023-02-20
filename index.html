@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Minha Página</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poker Delivery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Bem-vindo ao meu site</h1>
-  <p>Este é um site simples criado com HTML, CSS e JavaScript.</p>
+<body class="h-screen grid items-center justify-center">
+<div class="max-w-7x1 mx-auto px-12"> 
+  <h1 class="
+    inline
+    text-3xl
+    font-extrabold
+    tracking-tight
+    text-gray-900
+    sm:text-4xl
+    sm:block
+  ">Sou de Belo Horizonte e gostaria de um Torneio de Poker na minha casa</h1>
+  <h2 class="
+  text-3xl
+  font-extrabold
+  tracking-tight
+  text-pink-500
+  sm:text-4xl
+  sm:block
+">Lista de espera</h2>
+<form class="mt-8 sm:flex" action="https://docs.google.com/forms/d/e/1FAIpQLSfYuP7bmrgfFSmoEd646DuMEfX64jpmtl1l9JvYOA8oi7FgDQ/formResponse">
+  <label for="insta-friend" class="sr-only">Digite seu arroba</label>
+    <input class="
+    border border-gray-300
+    rounded-md
+    px-5
+    py-3
+    focus:outline-none
+    focus:ring-pink-500
+    focus:border-pink-500
+    w-full
+    "
+    id="insta-friend"
+    type="text"
+    name="entry.347250333"
+  placeholder="Digite o seu @"
+  required
+  >
+  <div class="
+  mt-3
+  sm:ml-3
+  sm:ml-0 
+  sm:lex-shrink-0
+  ">
+    <button
+        class="bg-pink-500 px-5 py-3 text-white rounded-md 
+        flex intems-center justify-center 
+        hover:bg-pink-600
+        focus:outline-none
+        focus:ring-2 focus:ring-offset-2 focus:ring-pink-500
+        w-full   
+        "
+    >Solicitar</button>
+  </div>
+</form>
+</div>
 </body>
 </html>
